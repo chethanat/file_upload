@@ -3,7 +3,7 @@
 This upload.py is module which uploads files from specific directory to AWS S3 and Google Cloud Storage 
 
 ## Prerequisites
-- Python 3.6 or higher
+- Python 3.8 or higher
 
 
 ## Usage
