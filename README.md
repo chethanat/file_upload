@@ -17,7 +17,7 @@ source .venv/bin/activate
 
 3. Install required dependencies from requirements.txt
 ```
-pip3 install -m reuirements.txt
+pip3 install -r requirements.txt
 ```
 
 4. Then set AWS and GCS credentials in the terminal 
@@ -29,6 +29,6 @@ set GOOGLE_APPLICATION_CREDENTIAL = path-to-json-file
 
 5. Then import upload.py module and run your script. Refer main.py for reference
 ```
-NOTE: It is not recomended to push credentials to git so set AWS and GCS credential using 4th step then run script
+NOTE: It is not recomended to push credentials to git to set AWS and GCS credential using 4th step then run script
 python3 main.py
 ```
